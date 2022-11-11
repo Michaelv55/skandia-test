@@ -38,3 +38,11 @@ const primeNumbers = (size = 50) => {
     return obj;
   }, [2]);
 }
+
+/**
+ * Third test for Skandia reverseWord (reverse a word by spaces)
+ * @author Michael Velasco
+ * @param {string} word word to reverse
+ * @returns {string}
+ */
+ const reverseWord = word => word.split(' ').reverse().join(' ');
