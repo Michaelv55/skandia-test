@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skandia Test</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="init.js"></script>
+    <script src="algorithms.js"></script>
+</head>
+<body>
+    <div class="container">
+        <span onclick="console.log(
+                binGo(parseInt(document.getElementById('size').value))
+            )" class="button">binGo</span>
+        <input type="number" min="0" id="size" value="100" class="i-number">
+        <span onclick="console.log(
+                primeNumbers(parseInt(document.getElementById('length').value))
+            )" class="button">primeNumbers</span>
+        <input type="number" min="0" id="length" value="50" class="i-number">
+        <span onclick="console.log(reverseWord(document.getElementById('word').value))" class="button">reverseWord</span>
+        <input type="text" id="word" value="prueba de lógica" class="i-text">
+        <pre><code id="console"></code></pre>
+    </div>
+</body>
+</html>
